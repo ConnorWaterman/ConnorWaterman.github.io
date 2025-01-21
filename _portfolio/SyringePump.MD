@@ -21,6 +21,6 @@ gallery:
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41b84e9df1e1fef99?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Code
-<iframe src="/assets/code/SyringePump.ino" height="600px" width="800" style="border:none;"></iframe>
+<iframe src="https://github.com/cwaterman8/ConnorWaterman.github.io/blob/main/assets/code/SyringePump.ino" height="600px" width="800" style="border:none;"></iframe>
 
 {% include gallery caption="Syringe Pump" %}
