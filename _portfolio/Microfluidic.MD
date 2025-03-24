@@ -13,7 +13,7 @@ gallery:
 
 # Introduction
 
-
+polydimethylsiloxane (PDMS) silicone is commonly used to create microfluidic devices from molds because of its low viscosity and biocompatibility.
 
 # Design
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41b84e9df1e1fef99?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
@@ -24,5 +24,5 @@ The design started in Autodesk Fusion. I utilized three channels, one for the fi
 
 # Production
 
-The mold was printed in clear resin on the Formlabs Form 4. 25 micron layers were used for maximum dimensional accuracy. After printing, the part was carefully cleaned to ensure that absolutely no liquid resin remained on the surface. After a short 1 minute cure, the mold was parlyene coated to prevent liquid monomer from leaching into the uncured polydimethylsiloxane (PDMS) silicone. Any amount of leaching will cause the PDMS not to cure properly. 
+The mold was printed in clear resin on the Formlabs Form 4. 25 micron layers were used for maximum dimensional accuracy. After printing, the part was carefully cleaned to ensure that absolutely no liquid resin remained on the surface. After a short 1 minute cure, the mold was parlyene coated to prevent liquid monomer from leaching into the uncured PDMS silicone. Any amount of leaching will cause the PDMS not to cure properly. 
 
