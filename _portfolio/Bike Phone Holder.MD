@@ -2,27 +2,22 @@
 title: "Top-Down Modeled 3D Printed Bike Phone Holder"
 excerpt: "With locking rotation"
 header:
-  image: /assets/img/LF3DP-Banner-2.jpg
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+  image: 
+  teaser: 
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
    
 ---
 
-# Introduction
+# Top Down Modeling
 
-polydimethylsiloxane (PDMS) silicone is commonly used to create microfluidic devices from molds because of its low viscosity and biocompatibility.
+Top down modeling is a CAD modeling approach where components and subassemblies are created within the context of a top level assembly.
 
 # Design
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4a519b4d1c46c1190?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-The asymmetric design was inspired by [this]() paper by ***** et.al. In theory, this design allows for finer sorting, better control of the flow rate through each channel, a more compact footprint, and a cooler look. 
+My intent with the design was to create a compact and robust mount with secure and satisfying detent mating. The detent design uses a 90 degree crossed arrangement of interlocking hemispherical profiles. The interlocked assembly is held together with a central tension spring. The end loops of the central spring are retaind by captive cylindrical pins to allow for infinite rotation in either direction without damaging the spring. The lower female mating plate is affixed to the fixed handlebar clamp using 4, M3 screws and threaded heat set inserts. The upper male plate is attached to the fixed arm of the phone mount in the same manner. A stiff central spring is required to kepp the halves together when the phone is held at an angle. The handle bar clamping mechanism has an upper fixed arm, and a lower pivoting arm. An M3 screw and heat set are used as the hinge pin. The two halves are tightened around the handlebar with another M3 screw and heat set. Hemispherical bars are placed under the screw head and around the heat set to distribute tension throughout the width of clamping arms, and to compensate for small differences in handle bar diameter. The phone mount uses a sliding prismatic joint optimized for filament 3D printing to constrain the motion of the moving arm. Another tension spring is used to tightly squeeze the a range of sizes of phones between the rigid grips. Proper joint clearances were necessary for smooth sliding without wobble, so the joint was designed to not require supports when printing either component.
 
-The design started in Autodesk Fusion. I utilized three channels, one for the finer particles, one for the larger particles and one drain channel to sink the majority of the flow through. Each channel was the same length so that hydraulic resistance was a function of channel width alone. 
+# Part
 
-# Production
-
-The mold was printed in clear resin on the Formlabs Form 4. 25 micron layers were used for maximum dimensional accuracy. After printing, the part was carefully cleaned to ensure that absolutely no liquid resin remained on the surface. After a short 1 minute cure, the mold was parlyene coated to prevent liquid monomer from leaching into the uncured PDMS silicone. Any amount of leaching will cause the PDMS not to cure properly. Once cured, the device was removed from the mold and bonded to a glass microscope slide.
+All parts were filament 3D printed in PLA. 
 
