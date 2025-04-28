@@ -12,8 +12,16 @@ gallery:
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4daca54665fddb3c7?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Perserve and Obstacle Geometry
-  My intent with the design was to create a compact and robust mount with secure and satisfying detent mating. The detent design uses a 90 degree crossed arrangement of interlocking hemispherical profiles. The interlocked assembly is held together with a central tension spring. The end loops of the central spring are retaind by captive cylindrical pins to allow for infinite rotation in either direction without damaging the spring. The lower female mating plate is affixed to the fixed handlebar clamp using 4, M3 screws and threaded heat set inserts. The upper male plate is attached to the fixed arm of the phone mount in the same manner. A stiff central spring is required to kepp the halves together when the phone is held at an angle. The handle bar clamping mechanism has an upper fixed arm, and a lower pivoting arm. An M3 screw and heat set are used as the hinge pin. The two halves are tightened around the handlebar with another M3 screw and heat set. Hemispherical bars are placed under the screw head and around the heat set to distribute tension throughout the width of clamping arms, and to compensate for small differences in handle bar diameter. The phone mount uses a sliding prismatic joint optimized for filament 3D printing to constrain the motion of the moving arm. Another tension spring is used to tightly squeeze the a range of sizes of phones between the rigid grips. Proper joint clearances were necessary for smooth sliding without wobble, so the joint was designed to not require supports when printing either component.
+
+The hanger pivot, central bushing mounting faces, axle ends, and motor mounting plate were designed based off of the Paris manufacturer CAD and physical measurements and used as preserve geometry. 
+
+The obstacle geometry had to account not only for the static position of the motor, belt, pulleys, wheels, board deck, baseplate, bushings and kingpin, but also allow the truck to pivot so the skateboard can turn, and provide installation tool clearance. The wheel and pulley positions are static and were modeled based off of physical measurements. These were to prevent material around the axle that would block installation or rotation. A fastener obstacle was also added through the wheel and axle to prevent material from filling the axle cutout and ensure socket clearance during installation. For the motor obstacle, the motor body was modeled, the motor mounting screw slots were filled, then an additional slot was added on top for bolt head and installation tool clearance. 
 
 # Structural Loads and Constraints
-All parts were filament 3D printed in PLA. 
+
+
+
+# Generative Design
+
+
 
