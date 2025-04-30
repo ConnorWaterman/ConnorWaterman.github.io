@@ -13,11 +13,13 @@ gallery:
 
 # Perserve and Obstacle Geometry
 
-The hanger pivot, central bushing mounting faces, axle ends, and motor mounting plate were designed based off of the Paris manufacturer CAD and physical measurements and used as preserve geometry. 
+The hanger pivot, central bushing mounting faces, axle ends, and motor mounting plate were designed based off of the Paris manufacturer CAD and physical measurements and used as preserve geometry. The motor mounting plate used 6mm long center-to-center slots so the belt tension can be adjusted. The motor is centered 15mm above the axle to give maximum clearance while still allowing the board to tilt as much as 20 degrees.
 
-The obstacle geometry had to account not only for the static position of the motor, belt, pulleys, wheels, board deck, baseplate, bushings and kingpin, but also allow the truck to pivot so the skateboard can turn, and provide installation tool clearance. The wheel and pulley positions are static and were modeled based off of physical measurements. These were to prevent material around the axle that would block installation or rotation. A fastener obstacle was also added through the wheel and axle to prevent material from filling the axle cutout and ensure socket clearance during installation. For the motor obstacle, the motor body was modeled, the motor mounting screw slots were filled, then an additional slot was added on top for bolt head and installation tool clearance. 
+The obstacle geometry had to account not only for the static position of the motor, belt, pulleys, wheels, board deck, baseplate, bushings and kingpin, but also allow the truck to pivot so the skateboard can turn, and provide installation tool clearance. The wheel and pulley positions are static and were modeled based off of physical measurements. These were to prevent material around the axle that would block installation or rotation. A fastener obstacle was also added through the wheel and axle to prevent material from filling the axle cutout and ensure socket clearance during installation. For the motor obstacle, the motor body was modeled, the motor mounting screw slots were filled, then an additional slot was added on top for bolt head and installation tool clearance. To make the baseplate obstacle, first the profile was sketch based off of the manufacturer CAD. This profile was extruded and served as the static position of the baseplate. To ensure clearance for the baseplate as it rotated, I did a solid sweep of the extruded baseplate about the hanger pivot 15 degrees in each direction. A cylinder was also extruded to and through the center bushing mount to create clearance for the bushings on each side and the kingpin through the center. 
 
 # Structural Loads and Constraints
+
+To simulate the variety of conditions that may be experienced I used 8 different load cases. The structural constraints were the same for all load cases. The cylindrical face of the hanger pivot was given a pin constraint with motion constrained only radially.
 
 
 
