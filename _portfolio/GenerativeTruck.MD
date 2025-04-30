@@ -40,5 +40,5 @@ This load case was usde to simulate the stress of a 10 kg skateboard coming to a
 
 # Thoughts on Generative Design
 
-
+I believe generative design is a useful and interesting technology, however it is usually not worth the time and cost over traditional topology optimization or even manual design optimization. The organic shapes and curves of generative design, while mechanically efficient and nice to look at, limit manufacturing to expensive metal and polymer powder processes. While traditional skateboard trucks can be easily, quickly and cheaply cast from steel, the generative design would require many hours of sintering in an expensive machine, with expensive material, and then still requires additional post-processing not necessary when simply casting in a mold. 
 
