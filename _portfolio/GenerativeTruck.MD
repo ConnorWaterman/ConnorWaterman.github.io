@@ -8,6 +8,8 @@ gallery:
    
 ---
 
+This generative design skateboard truck is designed to replace the original cast steel truck with a lighter and more attractive aluminum design with an integrated electric motor mount. 
+
 # Design
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4daca54665fddb3c7?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
@@ -40,5 +42,5 @@ This load case was usde to simulate the stress of a 10 kg skateboard coming to a
 
 # Thoughts on Generative Design
 
-I believe generative design is a useful and interesting technology, however it is usually not worth the time and cost over traditional topology optimization or even manual design optimization. The organic shapes and curves of generative design, while mechanically efficient and nice to look at, limit manufacturing to expensive metal and polymer powder processes. While traditional skateboard trucks can be easily, quickly and cheaply cast from steel, the generative design would require many hours of sintering in an expensive machine, with expensive material, and then still requires additional post-processing not necessary when simply casting in a mold. 
+I believe generative design is a useful and interesting technology, however it is usually not worth the time and cost over traditional topology optimization or even manual design optimization. The organic shapes and curves of generative design, while mechanically efficient and nice to look at, limit manufacturing to expensive metal and polymer powder processes. While traditional skateboard trucks can be easily, quickly and cheaply cast from steel, the generative design would require many hours of sintering in an expensive machine, with expensive material, and then still requires additional post-processing not necessary when simply casting in a mold. For applications like motorsports and aerospace where lightweight rigidity is paramount and cost is no obstacle, generative design is a great optimization tool. However, where manufacturability, cost and time to market are important, like in most consumer goods, generative design falls short of traditional design for manufacture.
 
